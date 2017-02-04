@@ -99,9 +99,9 @@ class Clock implements ClockInterface {
 }
 
 // extends
-interface Square extends Shape {
-    sideLength: number;
-}
+// interface Square extends Shape {
+//     sideLength: number;
+// }
 // hybrid type
 interface Counter {
     (start: number): string;

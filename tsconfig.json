@@ -1,9 +1,11 @@
 {
     "compilerOptions": {
-        "target": "ES5",
+        "target": "ES2017",
         "module": "commonjs",
         "noImplicitAny": true,
         "sourceMap": true,
+        "strictNullChecks": true,
+        "alwaysStrict": true,
         "outDir": "./lib/"
     },
     "include": [
